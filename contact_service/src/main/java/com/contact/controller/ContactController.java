@@ -26,11 +26,6 @@ public class ContactController {
 		return this.contactService.getContact(userId);
 	}
 	
-	@GetMapping("/users/{userId}")
-	public List<Contact> getContactdds(@PathVariable Long userId){
-		System.out.println("ljlkjlkj ");
-		return this.contactService.getContact(userId);
-	}
 	
 	
 	
